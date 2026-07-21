@@ -3,6 +3,7 @@ import dummyData from "../data/dummy_data";
 import DetailHeader from "../components/DetailHeader";
 import styled from "styled-components";
 import avatarImg from "../assets/IMG_0848.JPG";
+import FloatingBar from "../components/FloatingBar";
 
 
 const Main = styled.main`
@@ -156,6 +157,7 @@ function Detail() {
             <DetailHeader post={post} />
 
             <Main>
+                <FloatingBar post={post} />
                 <PostContainer>
 
                 <PostHeader>
